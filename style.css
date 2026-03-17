@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+ margin: 0;
+ padding: 0;
+ }
+
+
+
+body{
+ font-family: "Montserrat", sans-serif;
+    background-color: antiquewhite;
+ }
+
+ nav {
+     
+     height: 4rem;
+     background-color: rgb(0, 0, 0);
+     display: flex;
+     align-items: center;
+     padding: 0 20px;
+     justify-content: space-between;
+ }
+ .left-half{
+     display: flex;
+     align-items: center;
+     color: white;
+ }
+    .logo img{ 
+        width: 44px;
+    }
+
+    .home-icon{
+        font-size: 1.7rem;
+        margin-right: 1.5rem;
+        background-color: #1f1f1f;
+        color: rgb(179, 179, 179);
+        padding: 8px;
+        border-radius:50%;
+        margin: 0 1rem;
+        transition: 0.2s;
+    }
+    .home-icon:hover{
+        color: white;
+        transform: scale(1.05);
+    }
+    .search-bar{
+        display: flex;
+        align-items: center;
+        background-color: #1f1f1f;
+        padding: 5px 10px;
+        border-radius: 20rem;
+        width: 30rem;
+        height: 3rem;
+    }
+    .search-bar:hover{
+        background-color: #434343;
+        border: 1px solid rgb(116, 116, 116);
+    }
+    .search-icon{
+        font-size: 1.5rem;
+        color: rgb(179, 179, 179);
+        padding: 0 0.7rem;
+    }
+
+    .search-bar:hover .search-icon{
+        color: white;
+    }
+    .input-box{
+        width: 78%;
+        height: 60%;
+        background-color: transparent;
+        border: none;
+        border-right: 1px solid rgb(179, 179, 179);
+        outline: none;
+        color: white;
+        font-size: 1rem;
+    }
+    .browse{
+        font-size: 1.3rem;
+        margin-left: 1.6rem;
+        transition: 0.2s;
+    }
+    .browse:hover{
+        transform: scale(1.05);
+    }
+    .right-half{
+        display: flex;
+        align-items: center;
+        color: white;
+        width: 48%;
+
+    }
+    .right-half-p1{
+        display: flex;
+        align-items: center;
+        height: 1.7rem;
+        margin: 0 1rem;
+        padding: 0 1rem;
+        border-right: 1px solid rgb(179, 179, 179);
+    }
+    .nav-text{
+        padding: 0 0.5rem;
+        font-weight: 600;
+        color: rgb(179, 179, 179);
+        transition: 0.1s;
+        
+
+    }
+    .nav-text:hover{
+        color: white;
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
+    .right-half-p2{
+        display: flex;
+        align-items: center;
+    }
+    .login-btn{
+        height: 3rem;
+        width: 7rem;
+        border-radius: 15rem;
+        border: none;
+        background-color: white;
+        font-size: 1rem;
+        font-weight: 700;
+        margin-left: 1rem;
+        transition: 0.2s;
+        cursor: pointer;
+    }
+
+    .login-btn:hover{
+        
+        transform: scale(1.05);
+    }
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('bg.jpg');
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  }
+.songItem:hover{
+    background-color: #a2a2a2;
+}
+  
